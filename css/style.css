@@ -112,11 +112,19 @@ img{
 }
 
 .testimonials-grid{
-   display: grid; 
+   display: flex; 
    grid-template-columns: repeat (3, 1fr);
-   gap:30px;
+   gap: 30px;
+   margin: auto;
+   max-width: 1000px;
+   padding: 20px;
 }
 
+
+.testimonials .card p:nth-child(2){
+    margin-top: 30px;
+    font-weight:bold ;
+}
 
 /* Utility Classes*/
 .container{
@@ -125,7 +133,7 @@ img{
     padding: 0 15px;
 }
 
-container-sm{
+.container-sm{
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
@@ -226,10 +234,22 @@ container-sm{
     color: #fff;
 }
 
-/* Card */
+/* card */
 .card {
     background: #fff;
     color: #000;
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+
+
+
+
+
+
+    
