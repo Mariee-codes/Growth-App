@@ -126,6 +126,41 @@ img{
     font-weight:bold ;
 }
 
+
+/*pricing*/
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
+ 
+.pricing .pricing-card-subheading{
+    margin-bottom: 30px;
+}
+
+.pricing .pricing-card-price{
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.pricing ul{
+    margin: 30px 0;
+}
+
+.pricing ul li {
+margin-bottom: 20px;
+ }
+
+ .pricing ul li i{
+    margin-right: 10px;
+ }
+
+.pricing .pricing-footer{
+    margin: 30px 0;
+}
+
 /* Utility Classes*/
 .container{
     max-width: 1100px;
@@ -139,6 +174,16 @@ img{
     padding: 0 15px;
 }
 
+
+/* card */
+.card {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Buttons */
 .btn{
     display: inline-block;
@@ -150,6 +195,7 @@ img{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    text-align: center;
     transition: 0.5s ;
 }
 
@@ -234,17 +280,13 @@ img{
     color: #fff;
 }
 
-/* card */
-.card {
-    background: #fff;
-    color: #000;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    
+.container-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
 }
-
-
-
 
 
 
