@@ -225,7 +225,26 @@ width: 95%;
     display: block;
 }
 
+/* Footer */
+.footer{
+    padding: 40px 0;
+}
+.footer h4{
+    margin-bottom: 10px;
+}
 
+.footer ul li {
+    line-height: 2.5;
+}
+.footer a {
+
+    color:#ccc;
+}
+.footer i {
+    font-size: 1.5rem;
+    margin-right:10px;
+}
+.footer-grid
 
 
 /* Utility Classes*/
