@@ -112,10 +112,139 @@ img{
 }
 
 .testimonials-grid{
-   display: grid; 
+   display: flex; 
    grid-template-columns: repeat (3, 1fr);
-   gap:30px;
+   gap: 30px;
+   margin: auto;
+   max-width: 1000px;
+   padding: 20px;
 }
+
+
+.testimonials .card p:nth-child(2){
+    margin-top: 30px;
+    font-weight:bold ;
+}
+
+
+/*pricing*/
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
+ 
+.pricing .pricing-card-subheading{
+    margin-bottom: 30px;
+}
+
+.pricing .pricing-card-price{
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.pricing ul{
+    margin: 30px 0;
+}
+
+.pricing ul li {
+margin-bottom: 20px;
+ }
+
+ .pricing ul li i{
+    margin-right: 10px;
+ }
+
+.pricing .pricing-footer{
+    margin: 30px 0;
+}
+
+/* FAQ */
+.faq{
+    padding: 40px 0;
+}
+.faq .faq-group .faq-group-heading{
+    padding: 20px 0;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.faq .faq-group .faq-group-heading h4{
+font-weight: 600;
+width: 95%;
+}
+
+.faq .faq-group .faq-group-heading i{
+    position: absolute;
+    right: 0;
+    top: 35px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.faq .faq-group{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.faq ul.faq-menu{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.faq ul .faq-menu li{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.faq  .faq-menu li.active{
+    background:var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+
+    
+}
+
+
+.faq .faq-group .faq-group-body{
+    display: none;
+}
+
+.faq .faq-group .faq-group-body.open{
+    display: block;
+}
+
+/* Footer */
+.footer{
+    padding: 40px 0;
+}
+.footer h4{
+    margin-bottom: 10px;
+}
+
+.footer ul li {
+    line-height: 2.5;
+}
+.footer a {
+
+    color:#ccc;
+}
+.footer i {
+    font-size: 1.5rem;
+    margin-right:10px;
+}
+.footer-grid
 
 
 /* Utility Classes*/
@@ -125,10 +254,20 @@ img{
     padding: 0 15px;
 }
 
-container-sm{
+.container-sm{
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+
+/* card */
+.card {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Buttons */
@@ -142,6 +281,7 @@ container-sm{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    text-align: center;
     transition: 0.5s ;
 }
 
@@ -226,10 +366,18 @@ container-sm{
     color: #fff;
 }
 
-/* Card */
-.card {
-    background: #fff;
-    color: #000;
-    border-radius: 10px;
-    padding: 20px;
+
+    
+.container-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
 }
+
+
+
+
+
+
+
+    
